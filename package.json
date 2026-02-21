@@ -3,21 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
-  "start": "node src/server.js",
-  "dev": "node src/server.js",
-  "test": "cross-env NODE_ENV=test jest --runInBand",
-  "test:coverage": "cross-env NODE_ENV=test jest --coverage --runInBand"
-},
-"jest": {
-  "testEnvironment": "node",
-  "coverageDirectory": "coverage",
-  "collectCoverageFrom": [
-    "src/**/*.js",
-    "!src/server.js"
-  ]
-},
-
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "cross-env NODE_ENV=test jest --runInBand",
+    "test:coverage": "cross-env NODE_ENV=test jest --coverage --runInBand"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/server.js"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lohithadamisetti123/cdc-export-service.git"
@@ -30,6 +29,7 @@
   },
   "homepage": "https://github.com/lohithadamisetti123/cdc-export-service#readme",
   "dependencies": {
+    "@faker-js/faker": "^10.3.0",
     "csv-writer": "^1.6.0",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
