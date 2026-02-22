@@ -1,5 +1,6 @@
+// src/app.js
 const express = require('express');
-const { v4: uuidv4 } = require('uuid');
+const { randomUUID } = require('crypto');
 const exportService = require('./exportService');
 const logger = require('./logger');
 const config = require('../config');
@@ -27,7 +28,7 @@ app.post('/exports/full', (req, res) => {
   const consumerId = getConsumerId(req, res);
   if (!consumerId) return;
 
-  const jobId = uuidv4();
+  const jobId = randomUUID();
 
   setImmediate(async () => {
     try {
@@ -54,7 +55,7 @@ app.post('/exports/incremental', (req, res) => {
   const consumerId = getConsumerId(req, res);
   if (!consumerId) return;
 
-  const jobId = uuidv4();
+  const jobId = randomUUID();
 
   setImmediate(async () => {
     try {
@@ -84,7 +85,7 @@ app.post('/exports/delta', (req, res) => {
   const consumerId = getConsumerId(req, res);
   if (!consumerId) return;
 
-  const jobId = uuidv4();
+  const jobId = randomUUID();
 
   setImmediate(async () => {
     try {
