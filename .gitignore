@@ -1,5 +1,16 @@
 node_modules
 .env
+.env.local
+dist
 coverage
 output/*
-!.gitignore
+!output/.gitkeep
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+.idea
+.vscode/settings.json
+*.sqlite
+*.db
