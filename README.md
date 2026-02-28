@@ -84,9 +84,7 @@ Screenshots live in `docs/`:
 
 ## Video Demo
 
-Add your demo link here. Example placeholder:
-
-https://youtu.be/REPLACE_WITH_YOUR_VIDEO
+[WATCH NOW--->>>](https://youtu.be/htoHSjGpcbY?si=Vd3kbeVKRmRVj6H1)
 
 Or place `docs/demo.mp4` and host it with your docs.
 
