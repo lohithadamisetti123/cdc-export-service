@@ -84,9 +84,9 @@ Screenshots live in `docs/`:
 
 ## Video Demo
 
-[WATCH NOW--->>>](https://youtu.be/htoHSjGpcbY?si=Vd3kbeVKRmRVj6H1)
+[WATCH NOW👉](https://youtu.be/htoHSjGpcbY?si=Vd3kbeVKRmRVj6H1)
 
-Or place `docs/demo.mp4` and host it with your docs.
+
 
 ---
 
